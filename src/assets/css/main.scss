@@ -1,0 +1,13 @@
+$container_width: 1200px;
+$logo_width: 50px;
+
+.main-container {
+  padding: 5px calc((100% - $container_width) / 2) !important;
+}
+
+.logo {
+  max-width: $logo_width;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
