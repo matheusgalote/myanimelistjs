@@ -1,0 +1,41 @@
+// _home.scss
+// Estilos página Home.js
+// @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+$user_quadrant_width: 205px;
+$user_quadrant_height: 213px;
+
+$main_quadrant_width: 580px;
+$main_quadrant_height: 515px;
+
+$ranking_quadrant_width: 205px;
+$ranking_quadrant_height: 620px;
+
+.home-grid-content {
+  display: flex;
+  gap: 95px;
+}
+
+.home-title {
+  padding: 20px 0;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+}
+
+.home-user-quadrant {
+  background-color: #ccc;
+  width: $user_quadrant_width;
+  height: $user_quadrant_height;
+}
+
+.home-main-quadrant {
+  background-color: #ccc;
+  width: $main_quadrant_width;
+  height: $main_quadrant_height;
+}
+
+.home-ranking-quadrant {
+  background-color: #ccc;
+  width: $ranking_quadrant_width;
+  height: $ranking_quadrant_height;
+}

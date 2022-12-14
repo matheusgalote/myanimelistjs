@@ -1,13 +1,14 @@
 import Navigation from "./utils/Navigation";
 
 import "./assets/css/main.scss";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div>
       <Navigation />
       <div className="main-container">
-        <h1>Welcome To MyAnimeList.</h1>
+        <Home />
       </div>
     </div>
   );
